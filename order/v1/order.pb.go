@@ -309,7 +309,7 @@ const file_order_v1_order_proto_rawDesc = "" +
 	"\x05order\x18\x01 \x01(\v2\x0f.order.v1.OrderR\x05order2\x9d\x01\n" +
 	"\fOrderService\x12J\n" +
 	"\vCreateOrder\x12\x1c.order.v1.CreateOrderRequest\x1a\x1d.order.v1.CreateOrderResponse\x12A\n" +
-	"\bGetOrder\x12\x19.order.v1.GetOrderRequest\x1a\x1a.order.v1.GetOrderResponseB1Z/github.com/lakhansamani/ecom-grpc-apis/order/v1b\x06proto3"
+	"\bGetOrder\x12\x19.order.v1.GetOrderRequest\x1a\x1a.order.v1.GetOrderResponseB2Z0github.com/mariokerndler/ecom-grpc-apis/order/v1b\x06proto3"
 
 var (
 	file_order_v1_order_proto_rawDescOnce sync.Once

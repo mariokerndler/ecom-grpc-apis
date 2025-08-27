@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user.v1;
 
-option go_package = "github.com/lakhansamani/ecom-grpc-apis/user/v1";
+option go_package = "github.com/mariokerndler/ecom-grpc-apis/user/v1";
 
 // User service definition
 service UserService {

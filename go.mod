@@ -1,4 +1,4 @@
-module github.com/lakhansamani/ecom-grpc-apis
+module github.com/mariokerndler/ecom-grpc-apis
 
 go 1.24.5
 

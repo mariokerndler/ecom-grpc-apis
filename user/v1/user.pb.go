@@ -7,12 +7,11 @@
 package v1
 
 import (
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
-
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -393,7 +392,7 @@ const file_user_v1_user_proto_rawDesc = "" +
 	"\vUserService\x12?\n" +
 	"\bRegister\x12\x18.user.v1.RegisterRequest\x1a\x19.user.v1.RegisterResponse\x126\n" +
 	"\x05Login\x12\x15.user.v1.LoginRequest\x1a\x16.user.v1.LoginResponse\x12-\n" +
-	"\x02Me\x12\x12.user.v1.MeRequest\x1a\x13.user.v1.MeResponseB0Z.github.com/lakhansamani/ecom-grpc-apis/user/v1b\x06proto3"
+	"\x02Me\x12\x12.user.v1.MeRequest\x1a\x13.user.v1.MeResponseB1Z/github.com/mariokerndler/ecom-grpc-apis/user/v1b\x06proto3"
 
 var (
 	file_user_v1_user_proto_rawDescOnce sync.Once
